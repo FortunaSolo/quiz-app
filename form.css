@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#container {
+  background: #db97c2;
+  width: 75%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.title {
+  font-size: 7rem;
+  text-align: center;
+  font-family: "Edu AU VIC WA NT Pre", cursive;
+  font-weight: bolder;
+  margin: 0;
+}
+#form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#question-container {
+  font-size: 6rem;
+  font-family: "roboto";
+  font-weight: bolder;
+}
+#answer {
+  font-size: 4rem;
+  width: 70%;
+  text-align: center;
+  border-radius: 5px;
+  margin: 2rem;
+}
+.hide {
+  display: none;
+}
+.reply {
+  position: absolute;
+  text-align: center;
+  margin: 50px, 10px;
+}
+.greething {
+  font-size: 7rem;
+  text-align: center;
+  font-weight: bolder;
+  margin: 1rem 3rem;
+}
+.button {
+  padding: 6px 4ch;
+  margin-top: 3rem;
+  font-size: 3rem;
+  font-weight: bolder;
+  background: #310722;
+  color: #db97c2;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px #310722;
+}
